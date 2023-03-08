@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "3f15fb44-9346-4d57-a143-8b33b4d21673",
+		"name": "Fatture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25828298"
+	},
+	"item": [
+		{
+			"name": "get_fatture_filter_by_cliente",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get_fatture_filter_by_stato",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get_fatture_filter_by_importo",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get_fatture_filter_by_anno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/fatture/anno?anno=2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"fatture",
+						"anno"
+					],
+					"query": [
+						{
+							"key": "anno",
+							"value": "2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_fatture_filter_by_data",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get_fatture_filter_by_data_range",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
